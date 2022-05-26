@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T21:03:10.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" version="17.2.5" etag="diowYwKZ-UcHaxqa7kF-" type="github"><diagram id="HL4DtLry-0SRK4ZIwfcz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-26T06:33:02.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="DcfAgcamWWg2uQ8NaE36" version="17.2.5" type="github">
+  <diagram id="HL4DtLry-0SRK4ZIwfcz" name="Page-1">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-1" target="RMXB6CZTcXk5vNBe69zJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-1" value="Data Collection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-2" target="RMXB6CZTcXk5vNBe69zJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-2" value="Image Selection" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-3" target="RMXB6CZTcXk5vNBe69zJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-3" value="Training YOLOv5, YOLOX, Faster R-CNN" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="680" y="340" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-4" target="RMXB6CZTcXk5vNBe69zJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-4" value="Train Set Data Augmentation" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="680" y="230" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-5" target="RMXB6CZTcXk5vNBe69zJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-5" value="Evaluation on Test Set" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-6" target="RMXB6CZTcXk5vNBe69zJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-6" value="Fine-tuning model hyperparameters based on validation set" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-7" target="RMXB6CZTcXk5vNBe69zJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-7" value="Annotation" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-8" target="RMXB6CZTcXk5vNBe69zJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-8" value="Train-Valid-Test Split" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="510" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" source="RMXB6CZTcXk5vNBe69zJ-9" target="RMXB6CZTcXk5vNBe69zJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-9" value="Data Preprocessing" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="680" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-10" value="Result Analysis and Comparison" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RMXB6CZTcXk5vNBe69zJ-20" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;fontFamily=Times New Roman;fontStyle=1;fontSize=16;" edge="1" parent="1" target="RMXB6CZTcXk5vNBe69zJ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="190" as="sourcePoint" />
+            <mxPoint x="300" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
